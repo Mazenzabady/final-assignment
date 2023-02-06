@@ -1,0 +1,108 @@
+#navbar {
+  display: flex;
+  justify-content: RIGHT;
+  align-items: center;
+  margin-left:auto;
+  border: 20px solid white;
+  float: left;
+  
+}
+
+.nav-link a{
+  padding: 30px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-size:  bold;
+  border: none;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  width: 90px;
+}
+.font-under-image{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  width: 700px;
+  
+  border-right: 100px;
+  font-weight: inherit;
+  margin: 40px;
+  margin-bottom: 80px;
+}
+.text{
+  margin: auto;
+}
+.paragraph1{
+  float: left;
+  font-size: 50px;
+  width: 400px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  width: 50%; 
+  height: 50%; 
+}
+
+.image1{
+  border: 1px solid #ccc;
+  float: right;
+  margin-right: 11px;
+}
+
+
+.card{
+  float: left;
+  text-align: center;
+  margin: 200px;
+  margin-left: 450px;
+}
+.card1{
+ float: left;
+ margin-right: 20px;
+}
+.card2{
+  float: left;
+ margin-right: 20px;
+}
+.last{
+  
+  margin-right: 900px;
+  width: 1830px;
+  height: 450px;
+  float: left;
+  background-color: darkgrey;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  padding: 0px;
+}
+.first{
+  font-size: 29px;
+  margin-right: 90px;
+}
+.second{
+  font-size: 29px;
+}
+.third{
+  font-size: 20px;
+  width: 400px;
+  margin-left: 90px;
+  text-align: left;
+}
+
+
+

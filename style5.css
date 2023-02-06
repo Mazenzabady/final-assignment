@@ -1,0 +1,58 @@
+#navbar {
+    display: flex;
+    justify-content: RIGHT;
+    align-items: center;
+    margin-left:auto;
+    border: 20px solid white;
+    float: left;
+    
+  }
+  
+  .nav-link a{
+    padding: 30px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-size:  bold;
+    border: none;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+  }
+  .box{
+    float: left;
+    text-align: center;
+    margin: 200px;
+    margin-left: 450px;
+  }
+  .box1{
+   float: left;
+   margin-right: 20px;
+  }
+  .box2{
+    float: left;
+   margin-right: 20px;
+  }
+  .box{
+    float: left;
+    text-align: center;
+    margin: 200px;
+    margin-left: 450px;
+  }
+  .box1{
+   float: left;
+   margin-right: 20px;
+  }
+  .box2{
+    float: left;
+   margin-right: 20px;
+  }
+  .paragraph1{
+    float: left;
+    font-size: 50px;
+    width: 400px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+  }
+  

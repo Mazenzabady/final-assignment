@@ -1,0 +1,22 @@
+#navbar {
+    display: flex;
+    justify-content: RIGHT;
+    align-items: center;
+    margin-left:auto;
+    border: 20px solid white;
+    float: left;
+    
+  }
+  
+  .nav-link a{
+    padding: 30px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-size:  bold;
+    border: none;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+  }
