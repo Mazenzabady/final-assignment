@@ -20,7 +20,7 @@
   position: relative;
   transition: all 0.2s ease-in-out;
 }
-.image-text {
+.text-image {
   position: absolute;
   top: 50%;
   left: 10%;
@@ -83,7 +83,7 @@
   width: 1830px;
   height: 450px;
   float: left;
-  background-color: darkgrey;
+  background-color: grey;
   justify-content: center;
   align-items: center;
   text-align: center;
