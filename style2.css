@@ -1,25 +1,49 @@
 #navbar {
-    display: flex;
-    justify-content: RIGHT;
-    align-items: center;
-    margin-left:auto;
-    border: 20px solid white;
-    float: left;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color:darkgrey;
+}
+
+.logo {
+  padding: 20px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-link a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  transition: all 0.3s;
+}
+
+.nav-link a:hover {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  #navbar {
+    flex-direction: column;
+    height: auto;
   }
-  
-  .nav-link a{
-    padding: 30px;
+
+  .nav-link {
+    width: 100%;
     text-align: center;
-    color: black;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    font-size:  bold;
-    border: none;
-    position: relative;
-    transition: all 0.2s ease-in-out;
   }
+
+  .nav-link a {
+    padding: 10px 0;
+  }
+}
   .image-text {
     position: absolute;
     top: 50%;
